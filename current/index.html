@@ -145,9 +145,9 @@ if (autoChangeMode === '1') {
       el: '#vcomment',
       appId: 'gXo7jhE0oS9zAhJU3i7mK3SI-MdYXbMMI',
       appKey: 'ejX6rtiMYsSIqe5hhyAE7epf',
-      placeholder: '请给我留言吧',
+      placeholder: '请给我留言吧，网址可以随便填',
       avatar: 'monsterid',
-      meta: 'nick,mail'.split(','),
+      meta: 'nick'.split(','),
       pageSize: '10',
       lang: 'zh-CN',
       recordIP: false,
@@ -157,7 +157,7 @@ if (autoChangeMode === '1') {
       enableQQ: false,
       path: window.location.pathname,
     });
-    if ('nick,mail') { valine.config.requiredFields= 'nick,mail'.split(',') }
+    if ('nick') { valine.config.requiredFields= 'nick'.split(',') }
   }
 
   if (typeof Valine === 'function') initValine() 
