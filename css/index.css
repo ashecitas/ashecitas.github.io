@@ -288,8 +288,6 @@ input::placeholder {
   background: '';
   background-attachment: local;
   background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -2955,8 +2953,6 @@ blockquote footer cite:before {
   background: #49b1f5;
   background-attachment: local;
   background-position: bottom;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
 }
 #footer-wrap {
@@ -2984,8 +2980,6 @@ blockquote footer cite:before {
   background-color: #49b1f5;
   background-attachment: scroll;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-transition: all 0.5s;
